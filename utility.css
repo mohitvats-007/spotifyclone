@@ -1,0 +1,78 @@
+.border{
+    border: 2px solid rgb(171, 47, 47) ;
+    margin: 3px;
+}
+
+.flex{
+    display: flex;
+}
+
+.justify-center{
+    justify-content: center;
+}
+.item-center{
+    align-items: center;
+}
+
+.bg-black{
+    background-color: black;
+    color: white;
+}
+
+.invert{
+    filter: invert(1);
+}
+.bg-grey{
+    background-color: #121212;
+}
+
+.rounded{
+    border-radius: 7px;
+}
+
+.m-1{
+    margin: 5px;
+}
+.p-1{
+    padding: 5px;
+}
+
+
+
+
+
+/* Style the main scrollbar */
+::-webkit-scrollbar {
+  width: 12px;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #555;
+}
+
+/* Handle on active */
+::-webkit-scrollbar-thumb:active {
+  background: #777;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: #333;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #444;
+  border-radius: 10px;
+}
+
+/* Handle when it's grabbed (clicked and held) */
+::-webkit-scrollbar-thumb:active {
+  background: #666;
+}
+
+/* Corner */
+::-webkit-scrollbar-corner {
+  background: #333;
+}
